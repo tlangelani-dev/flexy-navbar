@@ -45,4 +45,35 @@
             }
         }
     }
+
+    &.secondary {
+        justify-content: flex-end;
+        .logo {
+            margin-right: auto;
+        }
+        .cta {
+            button {
+                margin-left: 20px;
+            }
+        }
+    }
+
+    &.third {
+        .logo {
+            order: 3;
+            margin-left: auto;
+        }
+        nav {
+            order: 1;
+            ul li:first-child {
+                padding: 0 20px 0 0;
+            }
+        }
+        .cta {
+            order: 2;
+            button {
+                margin-left: 20px;
+            }
+        }
+    }
 }
