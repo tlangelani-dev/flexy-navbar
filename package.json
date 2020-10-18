@@ -10,7 +10,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/http-server ./ -o -p 8080"
+    "start": "./node_modules/.bin/http-server ./ -o -p 8080",
+    "sass:build": "./node_modules/.bin/node-sass sass -o css --output-style compressed --source-map true",
+    "sass:watch": "./node_modules/.bin/node-sass --watch sass -o css"
   },
   "keywords": [],
   "author": "",
