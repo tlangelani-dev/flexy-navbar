@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "http-server": "^0.12.3"
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "node-sass": "^4.14.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/http-server ./ -o -p 8080"
   },
   "keywords": [],
   "author": "",
